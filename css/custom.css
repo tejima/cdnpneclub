@@ -1,0 +1,607 @@
+@media only screen and (max-width: 480px) {
+    .pricing-box {
+        margin: 0;
+        margin-bottom: 16px;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        margin-left: -1px;
+    }
+    .pricing-box:nth-child(odd) {
+        padding-left: 12px !important;
+    }
+    .pricing-box:nth-child(even) {
+        padding-right: 12px !important;
+    }
+}
+@media only screen and (max-width: 479px) {
+    .pricing-box {
+        margin: 0;
+        margin-bottom: 16px;
+        width: 100%;
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+    }
+}
+.pricing-table-header {
+    padding-top: 0;
+    margin-top: 0;
+    text-align: left;
+}
+.pricing-table-header > li {
+    padding: 7px 0 7px 11px;
+    font-size: 13px;
+}
+.pricing-table {
+    margin-top: 0;
+}
+.pricing-table > li {
+    text-align: center;
+    padding: 7px 0;
+    font-size: 13px;
+}
+.deco-under {
+    font-weight: bold;
+    border-bottom: solid 1px #eee;
+    padding-bottom: 4px;
+}
+.deco {
+    font-weight: bold;
+}
+ul.summary {
+    padding-left: 5px;
+}
+.summary li {
+    margin-bottom: 10px;
+    list-style: none;
+    font-size: 15px;
+    font-weight: 300;
+    padding-left: 20px;
+    background: url('../img/bullet.png') no-repeat left center;
+}
+.footer-link a {
+    color: white;
+}
+@media (min-width: 768px) {
+    .profile-banner {
+        height: 280px;
+        overflow: hidden;
+    }
+}
+@media (max-width: 767px) {
+    .profile-banner {
+        height: 140px;
+        overflow: hidden;
+    }
+}
+.profile-banner img {
+    width: 100%;
+    height: auto;
+}
+.divbtn-newclub {
+    background-color: #E74C7E;
+    width: 100%;
+    min-height: 100px;
+    padding-left: 8px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.divbtn-newclub span {
+    color: white;
+    font-size: 200%;
+    font-weight: normal;
+    left: 5px;
+    bottom: 5px;
+}
+.pneclub-logo {
+    font-size: 400%;
+    font-weight: normal;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.bg-primary {
+    background-color: #058b7b;
+}
+.bg-primary-regist {
+    background-color: #7eb5ca;
+}
+.bg-primary-regist .thumbnail-club .title {
+    background-color: #535353;
+}
+
+.pneclub-logo {
+    font-size: 400%;
+    font-weight: 500;
+}
+.footer-title p {
+    vertical-align: bottom;
+    margin-bottom: 0;
+}
+.topic {
+    margin-top: 15px;
+}
+.footer-newclub p {
+    font-size: 120%;
+    height: 172.5px;
+    line-height: 172.5px;
+}
+.found p {
+    padding-top: 44px;
+}
+.found {
+    background-color: #E74C7E;
+    height: 100px;
+    min-width: 0;
+    margin-top: 36.25px;
+}
+.thumbnail-club {
+    border-radius: 0;
+    border: 0;
+    padding: 0;
+    font-size: 12px;
+}
+.thumbnail-club .title {
+    /*padding-top: 4px;*/
+    padding-left: 4px;
+    margin-top: 0;
+    background-color: #058b7b;
+    color: white;
+    height: 40px;
+    width: 100%;
+    font-size: 120%;
+    font-weight: bold;
+    overflow: hidden;
+    /*white-space: nowrap;*/
+    display: table;
+}
+.thumbnail-club .title > * {
+    display: table-cell;
+    vertical-align: middle;
+}
+.bg-primary .thumbnail-club .title {
+    background-color: #535353;
+}
+.thumbnail-club .btn {
+    border-radius: 0;
+}
+.thumbnail-club img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.thumbnail-club p {
+    height: 110px;
+    overflow: scroll;
+    margin-bottom: 0;
+}
+.thumbnail-club .caption {
+    background-color: #F2F2F2;
+    padding-bottom: 6px;
+    max-height: 120px;
+}
+.progress-nav {
+    height: 25px;
+}
+@media (max-width: 991px) {
+    .progress-user {
+        font-size: 110%;
+        height: 40px;
+    }
+    .thumbnail-club-tip {
+        font-size: 80%;
+    }
+    .footer-newclub p {
+        font-size: 120%;
+        height: 146.5px;
+        line-height: 146.5px;
+    }
+    footer .footer-title {
+        font-size: 350%;
+        height: 293px;
+        line-height: 293px;
+        font-weight: 500;
+    }
+    .found {
+        background-color: #E74C7E;
+        height: 100px;
+        min-width: 0;
+        margin-top: 23.25px;
+        font-size: 12px;
+    }
+}
+@media (max-width: 728px) {
+    .pneclub-logo {
+        font-size: 300%;
+        font-weight: 500;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    footer .footer-title {
+        font-size: 350%;
+        height: 100px;
+        line-height: 100px;
+        font-weight: 500;
+    }
+    .footer-newclub p {
+        font-size: 120%;
+        height: 60px;
+        line-height: 60px;
+    }
+}
+@media (min-width: 992px) {
+    .progress-user {
+        font-size: 150%;
+        height: 50px;
+    }
+}
+.main-anchor-div {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 30px;
+    padding: 10px;
+    padding-left: 15px;
+    font-size: 180%;
+    line-height: 170%;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #222;
+    color: #fff;
+}
+.footer-container {
+    padding-top: 20px;
+    padding-bottom: 12px;
+}
+.footer-pneclub {
+    height: 100px;
+}
+.thumbnail-member .caption {
+    padding: 0;
+    padding-top: 4px;
+}
+.thumbnail-member .caption p {
+    margin-bottom: 0;
+}
+.thumbnail-noborder {
+    border: 0!important;
+}
+.thumbnail-md {
+    height: 220px;
+}
+.thumbnail-md img {
+    max-height: 200px;
+    max-width: 200px;
+}
+.img-square-small {
+    width: 150px;
+    max-height: 150px;
+}
+.thumbnail-img {
+    width: 200px;
+    max-height: 200px;
+}
+
+/* single.php用 */
+
+.square {
+    width: 200px;
+    /*height: 200px;*/
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: hidden;
+    display: box;
+    display: -webkit-box;
+    display: -moz-box;
+    box-align: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+}
+.square-small {
+    width: 150px;
+    /*max-height:150px;*/
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: hidden;
+}
+.square-xsmall {
+    width: 50px;
+    /*max-height:50px;*/
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: hidden;
+}
+
+/* twitter-widget用 */
+
+.tw-widget {
+    border-left-style: ridge;
+    border-right-style: ridge;
+    border-bottom-style: ridge;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.tw-tweet {
+    border-top-style: ridge;
+    margin-bottom: 5px;
+}
+a:hover {
+    text-decoration: none;
+}
+.tw-name {
+    color: #000000;
+    margin-right: 6px;
+}
+.tw-screen-name {
+    color: rgba(137, 137, 137, 0.70);
+    margin-right: 6px;
+}
+.tw-datetime {
+    color: rgba(137, 137, 137, 0.70);
+}
+.button-icon {
+    margin-bottom: 2px;
+    margin-right: 2px;
+}
+.tw-fav {
+    text-align: center;
+}
+.tw-reply {
+    text-align: center;
+}
+.tw-tweet-text {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.text-img {
+    text-align: center;
+}
+.tw-tweet img {
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.tw-info {
+    margin-right: 5px;
+    margin-left: 10px;
+    height: 50px;
+    margin-top: 5px;
+}
+@media (max-width: 728px) {
+    .tw-tweet-text {
+        margin-top: 10px;
+    }
+    .tw-info {
+        margin-top: 5px;
+        font-size: 15px;
+        margin-left: 0px;
+    }
+}
+@media (max-width: 480px) {
+    .bs-examples {
+        margin-right: -10px;
+        margin-left: -10px
+    }
+    .bs-examples>[class^=col-] {
+        padding-right: 10px;
+        padding-left: 10px
+    }
+}
+.bs-example {
+    position: relative;
+    padding: 45px 15px 15px;
+    margin: 0 -15px 15px;
+    border-color: #e5e5e5 #eee #eee;
+    border-style: solid;
+    border-width: 1px 0;
+    -webkit-box-shadow: inset 0 3px 6px rgba(0, 0, 0, .05);
+    box-shadow: inset 0 3px 6px rgba(0, 0, 0, .05)
+}
+.bs-example:after {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #666666;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.bs-example+.highlight {
+    margin: -15px -15px 15px;
+    border-width: 0 0 1px;
+    border-radius: 0
+}
+@media (min-width: 768px) {
+    .bs-example {
+        margin-right: 0;
+        margin-left: 0;
+        background-color: #fff;
+        border-color: #ddd;
+        border-width: 1px;
+        border-radius: 4px 4px 0 0;
+        -webkit-box-shadow: none;
+        box-shadow: none
+    }
+    .bs-example+.highlight {
+        margin-top: -16px;
+        margin-right: 0;
+        margin-left: 0;
+        border-width: 1px;
+        border-bottom-right-radius: 4px;
+        border-bottom-left-radius: 4px
+    }
+}
+.bs-example .container {
+    width: auto
+}
+.bs-example>p:last-child, .bs-example>ul:last-child, .bs-example>ol:last-child, .bs-example>blockquote:last-child, .bs-example>.form-control:last-child, .bs-example>.table:last-child, .bs-example>.navbar:last-child, .bs-example>.jumbotron:last-child, .bs-example>.alert:last-child, .bs-example>.panel:last-child, .bs-example>.list-group:last-child, .bs-example>.well:last-child, .bs-example>.progress:last-child, .bs-example>.table-responsive:last-child>.table {
+    margin-bottom: 0
+}
+.bs-example>p>.close {
+    float: none
+}
+.bs-example-type .table .type-info {
+    color: #999;
+    vertical-align: middle
+}
+.bs-example-type .table td {
+    padding: 15px 0;
+    border-color: #eee
+}
+.bs-example-type .table tr:first-child td {
+    border-top: 0
+}
+.bs-example-type h1, .bs-example-type h2, .bs-example-type h3, .bs-example-type h4, .bs-example-type h5, .bs-example-type h6 {
+    margin: 0
+}
+.bs-example-bg-classes p {
+    padding: 15px
+}
+.bs-example>.img-circle, .bs-example>.img-rounded, .bs-example>.img-thumbnail {
+    margin: 5px
+}
+.bs-example>.table-responsive>.table {
+    background-color: #fff
+}
+.bs-example>.btn, .bs-example>.btn-group {
+    margin-top: 5px;
+    margin-bottom: 5px
+}
+.bs-example>.btn-toolbar+.btn-toolbar {
+    margin-top: 10px
+}
+.bs-example-control-sizing select, .bs-example-control-sizing input[type=text]+input[type=text] {
+    margin-top: 10px
+}
+.bs-example-form .input-group {
+    margin-bottom: 10px
+}
+.bs-example>textarea.form-control {
+    resize: vertical
+}
+.bs-example>.list-group {
+    max-width: 400px
+}
+.bs-example .navbar:last-child {
+    margin-bottom: 0
+}
+.bs-example .pagination {
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+.bs-example>.pager {
+    margin-top: 0
+}
+.bs-example-modal {
+    background-color: #f5f5f5
+}
+.bs-example-modal .modal {
+    position: relative;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    z-index: 1;
+    display: block
+}
+.bs-example-modal .modal-dialog {
+    left: auto;
+    margin-right: auto;
+    margin-left: auto
+}
+.bs-example>.dropdown>.dropdown-toggle {
+    float: left
+}
+.bs-example>.dropdown>.dropdown-menu {
+    position: static;
+    display: block;
+    margin-bottom: 5px;
+    clear: left
+}
+.bs-example-tabs .nav-tabs {
+    margin-bottom: 15px
+}
+.bs-example-tooltips {
+    text-align: center
+}
+.bs-example-tooltips>.btn {
+    margin-top: 5px;
+    margin-bottom: 5px
+}
+.bs-example-popover {
+    padding-bottom: 24px;
+    background-color: #f9f9f9
+}
+.bs-example-popover .popover {
+    position: relative;
+    display: block;
+    float: left;
+    width: 260px;
+    margin: 20px
+}
+
+/* for sanbou.pne.club*/
+.label-先輩リーダーの知恵 ,
+.label-参謀日誌 ,
+.label-pneclub ,
+.label-コミュニティ知恵袋,
+.label-イベント {
+  background-color: #AAA;
+}
+.label-先輩リーダーの知恵[href]:hover,
+.label-先輩リーダーの知恵[href]:focus,
+.label-参謀日誌[href]:hover,
+.label-参謀日誌[href]:focus,
+.label-pneclub[href]:hover,
+.label-pneclub[href]:focus,
+.label-コミュニティ知恵袋[href]:hover,
+.label-コミュニティ知恵袋[href]:focus,
+.label-イベント[href]:hover,
+.label-イベント[href]:focus
+ {
+  background-color: #058b7b;
+}
+
+/*
+.label-参謀日誌 {
+  background-color: #5bc0de;
+}
+.label-参謀日誌[href]:hover,
+.label-参謀日誌[href]:focus {
+  background-color: #31b0d5;
+}
+
+.label-pneclub {
+  background-color: #f0ad4e;
+}
+.label-pneclub[href]:hover,
+.label-pneclub[href]:focus {
+  background-color: #ec971f;
+}
+
+.label-コミュニティ知恵袋 {
+  background-color: #777;
+}
+.label-コミュニティ知恵袋[href]:hover,
+.label-コミュニティ知恵袋[href]:focus {
+  background-color: #5e5e5e;
+}
+.label-AAAA {
+  background-color: #058b7b;
+}
+.label-AAAA[href]:hover,
+.label-AAAA[href]:focus {
+  background-color: #286090;
+}
+
+.label-イベント {
+  background-color: #d9534f;
+}
+.label-イベント[href]:hover,
+.label-イベント[href]:focus {
+  background-color: #c9302c;
+}
+*/
